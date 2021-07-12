@@ -1,0 +1,84 @@
+<html>
+ 
+<head>
+    <!meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            height: 100%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+         
+        * {
+            box-sizing:border-box;
+        }
+         
+        h1 {
+            text-align:center;
+            color:rgb(51, 14, 5);
+            -webkit-text-stroke: .5px black;
+        }
+         
+        
+        .background-image {
+            background-image: url("https://wallpapertag.com/wallpaper/full/7/2/1/191014-full-hd-wallpapers-1920x1080-desktop.jpg");
+            height: 100%;
+            background-size:cover;
+        }
+     
+        
+        .container {
+            position:absolute;
+            left: 40%;
+            top: 35%;
+            max-width: 25%;
+            padding: 16px;
+        }
+ 
+        b {
+            color: rgb(11, 11, 14);
+            font-size:26px;
+            -webkit-text-stroke: .5px black;
+        }
+     
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0px;
+            border: 2px solid rgb(10, 12, 10);
+        }
+         
+ 
+     
+        
+        .button {
+            background-color: rgb(11, 175, 216);
+            color: white;
+            padding: 16px 16px;
+            cursor:pointer;
+            width: 50%;
+            
+        }
+         
+        
+    </style>
+</head>
+ 
+<body>
+    <div class="background-image">
+        <h1>WELCOME TO MYWORLD</h1>
+         
+        <form action=3.html method=post class="container">
+            <b>Username</b>
+            <input type="text" placeholder="Username Please" name="username" required>
+ 
+            <b>Password</b>
+            <input type="password" placeholder="Enter Password" name="password" required>
+ 
+            <button type="submit" class="button">Login</button>
+        </form>
+    </div>
+</body>
+ 
+</html>
